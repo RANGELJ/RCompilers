@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lintfix": "eslint --fix ./pages/index.vue"
+    "lintfix": "eslint --fix ./pages/index.vue ./lib/**/*.js"
   },
   "dependencies": {
     "nuxt": "^1.0.0",

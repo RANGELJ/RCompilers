@@ -4,7 +4,7 @@
         fixed app
         color="primary"
         dark
-        :clipped-left="clipped">
+        :clipped-left="true">
         <v-toolbar-title>Compilers</v-toolbar-title>
     </v-toolbar>
     <v-content>
