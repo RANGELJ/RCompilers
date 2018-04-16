@@ -1,6 +1,6 @@
-# contnuxt
+# nutricion
 
-> An aplication to create, edit, and analize compilers, interprers, transpilers and all programs that process text based information
+> Version del lado del servidor de nutricion
 
 ## Build Setup
 

@@ -1,28 +1,21 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es6": true
+    root: true,
+    parser: 'babel-eslint',
+    env: {
+        browser: true,
+        node: true
     },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "sourceType": "module"
+    extends: 'standard',
+    // required to lint *.vue files
+    plugins: [
+        'html'
+    ],
+    // add your custom rules here
+    rules: {
+        "indent": ["error", 4],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"]
     },
-    "rules": {
-        "indent": [
-            "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
+    globals: {
     }
-};
+}
